@@ -52,6 +52,7 @@ public class BookServiceImpl implements BookService {
 		book1.setPrice(book.getPrice());
 
 		bookRepository.save(book1);
+		System.out.println(" update book" );
 	}
 
 	@Override
